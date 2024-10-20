@@ -1,0 +1,62 @@
+2024-10-20 22:22:06 - INFO - Loading faiss.
+2024-10-20 22:22:07 - INFO - Successfully loaded faiss.
+2024-10-20 22:22:07 - ERROR - Error processing user input: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2024-10-20 22:22:11 - ERROR - Error processing user input: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2024-10-20 22:27:04 - ERROR - Error processing user input: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2024-10-20 22:27:10 - ERROR - Error processing user input: Error in faiss::FileIOReader::FileIOReader(const char *) at /Users/runner/work/faiss-wheels/faiss-wheels/faiss/faiss/impl/io.cpp:68: Error: 'f' failed: could not open faiss_index/index.faiss for reading: No such file or directory
+2024-10-20 22:30:35 - ERROR - Error reading PDF file H: [Errno 2] No such file or directory: 'H'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file 2: [Errno 2] No such file or directory: '2'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file H: [Errno 2] No such file or directory: 'H'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file  : [Errno 2] No such file or directory: ' '
+2024-10-20 22:30:35 - ERROR - Error reading PDF file C: [Errno 2] No such file or directory: 'C'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file h: [Errno 2] No such file or directory: 'h'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file a: [Errno 2] No such file or directory: 'a'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file t: [Errno 2] No such file or directory: 't'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file b: [Errno 2] No such file or directory: 'b'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file o: [Errno 2] No such file or directory: 'o'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file t: [Errno 2] No such file or directory: 't'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file  : [Errno 2] No such file or directory: ' '
+2024-10-20 22:30:35 - ERROR - Error reading PDF file D: [Errno 2] No such file or directory: 'D'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file a: [Errno 2] No such file or directory: 'a'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file t: [Errno 2] No such file or directory: 't'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file a: [Errno 2] No such file or directory: 'a'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file .: [Errno 21] Is a directory: '.'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file p: [Errno 2] No such file or directory: 'p'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file d: [Errno 2] No such file or directory: 'd'
+2024-10-20 22:30:35 - ERROR - Error reading PDF file f: [Errno 2] No such file or directory: 'f'
+2024-10-20 22:31:57 - ERROR - Error creating vector store: Error embedding content: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+2024-10-20 22:32:22 - ERROR - Error creating vector store: Error embedding content: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+2024-10-20 22:37:53 - ERROR - Error creating vector store: Error embedding content: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+2024-10-20 22:38:58 - ERROR - Error creating vector store: Error embedding content: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+2024-10-20 22:49:09 - INFO - Loading faiss.
+2024-10-20 22:49:09 - INFO - Successfully loaded faiss.
+2024-10-20 22:55:08 - ERROR - Error reading PDF file backend_path/pdf1.pdf: [Errno 2] No such file or directory: 'backend_path/pdf1.pdf'
+2024-10-20 22:55:08 - ERROR - Error reading PDF file backend_path/pdf2.pdf: [Errno 2] No such file or directory: 'backend_path/pdf2.pdf'
+2024-10-20 22:55:09 - ERROR - Error reading PDF file backend_path/pdf1.pdf: [Errno 2] No such file or directory: 'backend_path/pdf1.pdf'
+2024-10-20 22:55:09 - ERROR - Error reading PDF file backend_path/pdf2.pdf: [Errno 2] No such file or directory: 'backend_path/pdf2.pdf'
+2024-10-20 23:15:07 - INFO - Loading faiss.
+2024-10-20 23:15:07 - INFO - Successfully loaded faiss.
