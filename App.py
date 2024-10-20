@@ -165,7 +165,7 @@ def main():
         st.write("`by Skill Mingle`")        
 
     if st.session_state['chat_history']:
-        st.title("Conversation Hist")
+        st.title("Conversation History")
         for role, text in st.session_state['chat_history']:
             st.write(f"{role}: {text}")
         st.write("-----")
