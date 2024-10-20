@@ -106,15 +106,15 @@ def user_input(user_question, memory):
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
             st.write("Reply: ", response["output_text"])
-            citations = [
-                f"Page `{doc.metadata['page_num']}`: {doc.page_content[:100]} . . . . . . .{doc.page_content[-50:]}"
-                for doc in docs
-            ]
-            if citations:
-                st.write("`CITATIONS (for the above response)`")
-                for role in citations:
-                    st.write(role)
-                st.write("---------")
+            # citations = [
+            #     f"Page `{doc.metadata['page_num']}`: {doc.page_content[:100]} . . . . . . .{doc.page_content[-50:]}"
+            #     for doc in docs
+            # ]
+            # if citations:
+            #     st.write("`CITATIONS (for the above response)`")
+            #     for role in citations:
+            #         st.write(role)
+            #     st.write("---------")
             return timestamp, response['output_text']
         else:
             st.error("Conversational chain setup failed. Check logs for details.")
@@ -165,7 +165,7 @@ def main():
         st.write("`by Skill Mingle`")        
 
     if st.session_state['chat_history']:
-        st.title("Conversation Hist")
+        st.title("Conversation History")
         for role, text in st.session_state['chat_history']:
             st.write(f"{role}: {text}")
         st.write("-----")
